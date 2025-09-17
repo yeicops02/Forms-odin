@@ -20,6 +20,10 @@ p {
     margin: 0;
 }
 
+.container-main {
+    display: flex;
+}
+
 .fondo {
     background-image: url(../img/fondo.jpg);
     background-repeat: no-repeat;
@@ -51,12 +55,14 @@ p {
     bottom: 0;
     top:0;
     background-color: rgba(0, 0, 0, .3);
+
 }
 
 .contenedor__overlay p {
     font-family: "norse-bold";
     font-size: 6rem;
     color: white;
+    
 
 }
 
@@ -67,7 +73,70 @@ p {
 .creditos p {
     color: white;
     font-weight: 100;
+    margin-top: 20rem;
     
+}
+
+
+.contenedor-first {
+    background-color: rgba(128, 128, 128, 0.098);
+    padding: 6rem 6rem 3.7rem 3.5rem;
+    width: 71.5rem;
+}
+
+.contenedor-first p {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+fieldset {
+    border: none;
+    margin: 2rem;
+}
+
+legend {
+    font-size: 2.5rem;
+    font-weight: 200;
+    margin-bottom: 1rem;
+}
+
+label {
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    font-size: 1.2rem;
+}
+
+.controles-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container {
+    display: flex;
+    gap: 6rem;
+    margin-bottom: 1rem;
+}
+
+.section-boton {
+    background-color: rgba(128, 128, 128, 0.098);
+    height: 15.5rem;
+}
+
+button {
+    padding: 0.5rem 3.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: rgba(8, 76, 8, 0.411);
+    margin: 2rem 2rem 0rem 2rem;
+
+}
+.section-last p {
+    font-size: 1.5rem;
+    margin: 2rem 2rem 0rem 2rem;
+}
+
+.section-last p span {
+    color: rgb(7, 87, 7);
 }
 
 

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,66 +10,85 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Formulario</title>
 </head>
+
 <body>
 
-    <div class="fondo">
-        
-        <div class="contenedor">
-            <div class="contenedor__overlay"> 
-                <img class="logo-odin" src="img/logo.png" alt="logo odin">
-                <p>ODIN</p>
+    <div class="container-main">
+
+
+        <div class="fondo">
+
+            <div class="contenedor">
+                <div class="contenedor__overlay">
+                    <img class="logo-odin" src="img/logo.png" alt="logo odin">
+                    <p>ODIN</p>
+                </div>
+            </div>
+
+            <div class="creditos">
+                <p>Photo by: Halie West on Unplash</p>
             </div>
         </div>
 
-        <div class="creditos">
-            <p>Photo by: Halie West on Unplash</p>
-        </div>
-    </div>
 
+        <div class="contenedor-form">
+            <div class="contenedor-first">
+                <p>This is not a real online service! You know you need something <br> like this in your life to help
+                    you realize your deepest dreams. <br> Sign up now to get started. <br> <br> You know you want to.
+                </p>
+            </div>
 
-    <div>
-        <div>
-            <div>
-                <p>This is not a real online service! You know you need something <br> like this in your life to help you realize your deepest dreams. <br> Sign up now to get started. <br> <br> You know you want to.</p>
+            <form action="">
+                <fieldset>
+                    <legend>Let's do this!</legend>
+
+                    <div class="form-container">
+                        <div class="controles-form">
+                            <label for="first-name">first name</label>
+                            <input type="text" name="first-name" id="first-name">
+                        </div>
+
+                        <div class="controles-form">
+                            <label for="last-name">last name</label>
+                            <input type="text" name="last-name" id="last-name">
+                        </div>
+                    </div>
+
+                    <div class="form-container">
+                        <div class="controles-form">
+                            <label for="email">email</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+
+                        <div class="controles-form">
+                            <label for="phone-number">phone number</label>
+                            <input type="number" name="phone-number" id="phone-number">
+                        </div>
+                    </div>
+
+                    <div class="form-container">
+                        <div class="controles-form">
+                            <label for="password">password</label>
+                            <input type="password" name="password" id="password">
+                        </div>
+
+                        <div class="controles-form">
+                            <label for="confirm-password">confirm password</label>
+                            <input type="password" name="confirm-password" id="confirm-password">
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+
+            <div class="section-boton">
+                <div class="section-last">
+                    <button type="button">Create Account</button>
+                    <p>Already have an account? <span>Log in</span></p>
+                </div>
             </div>
         </div>
-
-        <form action="">
-            <fieldset>
-                <legend>Let's do this!</legend>
-
-                <div>
-                    <label for="first-name">first name</label>
-                    <input type="text" name="first-name" id="first-name">
-
-                    <label for="last-name">last name</label>
-                    <input type="text" name="last-name" id="last-name">
-                </div>
-
-                <div>
-                    <label for="email">email</label>
-                    <input type="email" name="email" id="email">
-
-                    <label for="phone-number">phone number</label>
-                    <input type="number" name="phone-number" id="phone-number">
-                </div>
-
-                <div>
-                    <label for="password">password</label>
-                    <input type="password" name="password" id="password">
-
-                    <label for="confirm-password">confirm password</label>
-                    <input type="password" name="confirm-password" id="confirm-password">
-                </div>
-            </fieldset>
-        </form>
     </div>
 
-    <div>
-        <div>
-            <button type="button">Create Account</button>
-            <p>Already have an account? <span>Log in</span></p>
-        </div>
-    </div>
 </body>
+
 </html>
